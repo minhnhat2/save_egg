@@ -91,5 +91,5 @@ bar_2 = duplicate(bar_1,y=3,origin=(-0.5,0.5),
 egg = Entity(model='quad',texture='egg.png', scale=(0.8,1),
              position=(random.uniform(-2,3),-2.4,-0.1))
 emoji = Entity(model='quad',z=0.1)
-
+ 
 app.run()

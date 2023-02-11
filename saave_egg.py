@@ -2,7 +2,7 @@ from ursina import *
 import random
 
 def update():
-    global run,t
+    global run,t 
     
     if run:
         bar_1.scale_y +=0.5 * time.dt
